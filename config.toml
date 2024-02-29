@@ -6,7 +6,7 @@ theme = "anatole-zola"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+build_search_index = false
 
 [markdown]
 # Whether to do syntax highlighting
@@ -15,6 +15,33 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+
+
+title = "Anatole"
+description = "A other zola theme"
+generate_feed = true
+highlight_theme = "base16-ocean-light"
+default_language = "en"
+
+taxonomies = [
+    {name = "tags"},
+]
+
+[languages.en]
+title = "Anatole"
+description = "A other zola theme"
+generate_feed = true
+taxonomies = [
+    {name = "tags"},
+]
+
+[languages.zh]
+title = "Anatole"
+description = "A other zola theme"
+generate_feed = true
+taxonomies = [
+    {name = "tags"},
+]
 
 [languages.en.translations]
 language_name = "English"
