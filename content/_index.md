@@ -1,7 +1,7 @@
 +++
-title = "Albatros"
+title = "index"
 template = "index.html"
-sort_by = "weight"
+transparent = true
+sort_by = "date"
+paginate_by = 10
 +++
-
-This content will not be used. See the `custom/home.html` page for details.
